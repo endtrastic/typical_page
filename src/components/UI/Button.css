@@ -18,3 +18,12 @@
     outline: none
 }
 
+.button:disabled,
+.button:focus:disabled,
+.button:hover:disabled {
+    background: #ccc;
+    color: #666;
+    cursor: not-allowed;
+    border-color: #ccc;
+}
+
